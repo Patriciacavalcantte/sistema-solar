@@ -97,6 +97,9 @@ justify-content: center;
   .hamburger-menu{
     display: none;
   }
+  h1 {
+    display:flex;
+  }
   .footer{
     display: flex;
     flex-direction: column;
