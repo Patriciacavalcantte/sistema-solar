@@ -34,6 +34,7 @@
 * {
   link-style:none;
   text-decoration: none;
+
  
 
 }
@@ -108,7 +109,7 @@ ul {
 }
  h1 {
   font-size: 1rem;
-  padding: 20px;
+  padding: 40px;
   position: absolute;
   top: 50%;
   left: -15%;
@@ -121,9 +122,12 @@ ul {
   padding: 10px;
  }
 
+
 body {
   background: #000;
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 
 }
 /*-------------MENU -------------*/
@@ -163,11 +167,11 @@ a:hover {
   cursor:pointer;
 }
 
-/*-----------------MOBILE MENU----------- */
-
-
 /*-----------PLANETAS --------------*/
-
+main {
+  padding:50px;
+  margin:50px;
+}
 .sun_flare {
   z-index:1;
   height:130px;
@@ -197,6 +201,7 @@ a:hover {
 .text-planet-color {
   color: #ffffff;
   font-family: 'Roboto';
+padding:0.5rem;
 }
 
 .planet {
@@ -213,7 +218,7 @@ a:hover {
   padding-top: 35px;
   line-height: 3px;
   opacity: 0;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 @keyframes anim {
